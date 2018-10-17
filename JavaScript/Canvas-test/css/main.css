@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.coordinates {
+  text-align: center;
+}
+.coordinates button:focus {
+  outline: none;
+}
+.coordinates .canvas-container header h1 {
+  color: #5b83ad;
+}
+.coordinates .canvas-container section #canvas {
+  background-color: #ffffff;
+  border: 1px solid #888888;
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 3px #888888;
+}
+.canvas {
+  text-align: center;
+}
+.canvas canvas {
+  box-shadow: 1px 1px 3px #888888;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  height: 200px;
+  width: 230px;
+  margin: 10px;
+  text-align: center;
+}

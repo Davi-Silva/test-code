@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>List Test</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <button class="btnToRed" type="button" name="button">Set the second item on the list to red</button>
+    <button class="btnUnderline" type="button" name="button">Set all the items to underline</button>
+    <ul class="nav">
+        <li>Home</li>
+        <li class="red">Product</li>
+        <li>About</li>
+    </ul>
+    <br>
+    <br>
+    <button class="showCheckedItems" type="button" name="button">Show checked items</button>
+    <button class="resetButton">Reset list</button>
+    <ul class="fruitList">
+        <li>
+            <input type="checkbox" name="fruit" value="apples">Apples
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="oranges">Oranges
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="bananas">Bananas
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="grapes">Grapes
+        </li>
+    </ul>
+    <p id="selectFruitSelected"></p>
+    <br>
+    <!-- with createElement(), append() methods and of the textContent attribute. -->
+    <h3>With the createElement(), appendChild() method and of the textContent attribute.</h3>
+    <input id="numericInput" type="number" step="1" max="20" min="0" value="0">
+    <button id="addNumberBtn">Insert element list</button>
+    <button id="emptyBtn">Reset</button>
+    <ul id="number"></ul>
+    <br>
+    <!-- using the innerHTML property to add new elements -->
+    <h3>Using the innerHTML property to add new elements.</h3>
+    <input id="numericInput2" type="number" step="1" max="20" min="0" value="0">
+    <button id="addNumberBtn2">Insert element list</button>
+    <button id="emptyBtn2">Reset</button>
+    <ul id="number2"></ul>
+
+    <h3>Removing element from the list</h3>
+    <button id="removeBtn">Remove selected items</button>
+    <button id="resetConfig">Reset in initial configuration</button>
+    <ul id="fruit">
+        <li>
+            <input type="checkbox" name="fruit" value="apples">Apples
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="oranges">Oranges
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="bananas">Bananas
+        </li>
+        <li>
+            <input type="checkbox" name="fruit" value="grapes">Grapes
+        </li>
+    </ul>
+
+
+    <script src="./js/main.js" charset="utf-8"></script>
+</body>
+</html>

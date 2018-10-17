@@ -1,0 +1,57 @@
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Lato";
+  letter-spacing: 1px;
+}
+
+body p {
+  font-size: 17px;
+}
+
+body button {
+  border: 2px dashed red;
+  border-radius: 5px;
+  color: red;
+  font-size: 20px;
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+body button:hover {
+  color: #ed7c44;
+  border-color: #ed7c44;
+  transform: scale(1.02, 1.02);
+}
+
+body button:focus {
+  outline: none;
+}
+
+body #users {
+  margin: 20px;
+  display: block;
+}
+
+body #users table {
+  color: #fff;
+  box-shadow: 0px 4px 5px #888888;
+}
+
+body #users table tr th, body #users table tr td {
+  padding: 5px 10px 5px 10px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+body #users table tr th {
+  background-color: #bff73d;
+}
+
+body #users table tr td {
+  background-color: #c9fc8a;
+}
+
+/*# sourceMappingURL=main.css.map */

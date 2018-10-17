@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #cccccc;
+  font-family: "Lato"; }
+  body #table1 {
+    margin: 0 auto;
+    padding: 30px;
+    color: #ffffff; }
+    body #table1 #table1, body #table1 tr, body #table1 th, body #table1 td {
+      border: 1px solid black; }
+    body #table1 tr th, body #table1 tr td {
+      padding: 5px;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      text-align: center; }
+    body #table1 tr th {
+      font-size: 22px;
+      background-color: #89c36c; }
+    body #table1 tr td {
+      font-size: 20px;
+      background-color: #c9ecb7; }
+      body #table1 tr td:hover {
+        background-color: #f2fd8c; }
+  body .inputs {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin: 10px; }
+    body .inputs input {
+      display: inline-block;
+      width: 100px;
+      padding: 6px;
+      border-radius: 5px;
+      border: none; }
+    body .inputs input[type="number"] {
+      width: 50px; }
+  body .delete-input {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin: 10px; }
+    body .delete-input input {
+      width: 100px;
+      padding: 6px;
+      border-radius: 5px;
+      border: none;
+      width: 50px; }
+  body button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 4px;
+    font-size: 25px;
+    border: 3px solid #89c36c;
+    border-radius: 6px;
+    color: #89c36c;
+    background-color: transparent; }
+    body button:focus {
+      outline: none; }
+  body #table2, body #table3 {
+    margin: 0 auto;
+    border-radius: 10px; }
+    body #table2 tr th, body #table2 tr td, body #table3 tr th, body #table3 tr td {
+      text-align: center;
+      padding: 5px; }
+    body #table2 tr th, body #table3 tr th {
+      background-color: #c9ecb7; }
+    body #table2 tr td, body #table3 tr td {
+      background-color: #dddddd; }
+      body #table2 tr td:hover, body #table3 tr td:hover {
+        background-color: #f2fd8c; }
+  body .inputs-table2 {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    margin: 10px; }
+    body .inputs-table2 input {
+      display: inline-block;
+      width: 100px;
+      padding: 6px;
+      border-radius: 5px;
+      border: none; }
+    body .inputs-table2 input[type="number"] {
+      width: 50px; }
+    body .inputs-table2 input[type="color"] {
+      background-color: #ffffff;
+      width: 30px;
+      height: 20px; }
+
+/*# sourceMappingURL=main.css.map */

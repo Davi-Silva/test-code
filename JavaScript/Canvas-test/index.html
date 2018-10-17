@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canvas JavaScript Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="coordinates">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="canvas-container">
+                        <header>
+                            <h1>Canvas</h1>
+                        </header>
+                        <section>
+                            <canvas id="canvas"></canvas>
+                            <p class="coords"></p>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input id="input-name" type="text" name="name" placeholder="Name">
+                    <p id="output-message"></p>
+                    <label for="color-picker">Background color:</label>
+                    <input type="color" id="color-picker">
+                    <button id="randomColorBtn">Pick a random color!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="canvas">
+        <div class="container">
+            <div class="col-md-12">
+                <canvas id="canvas2">
+                    It's not supported by your browser...
+                </canvas>
+                <canvas id="canvas3">
+                    It's not supported by your browser...
+                </canvas>
+                <canvas id="canvas4">
+                    It's not supported by your browser...
+                </canvas>
+                <canvas id="canvas5">
+                    It's not supported by your browser...
+                </canvas>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+$dark-green: #89c36c
+$letters-color: #ffffff
+$light-green: #c9ecb7
+$hover-color: #f2fd8c
+
+*
+    padding: 0
+    margin: 0
+
+body 
+    background-color: #cccccc
+    font-family: 'Lato'
+    #table1
+        margin: 0 auto
+        padding: 30px
+        color: $letters-color
+        #table1, tr, th, td 
+            border: 1px solid black
+        tr
+            th, td 
+                padding: 5px
+                text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
+                text-align: center
+            th 
+                font-size: 22px
+                background-color: $dark-green
+            td
+                font-size: 20px
+                background-color: $light-green
+                &:hover
+                    background-color: $hover-color
+    
+    .inputs
+        margin: 0 auto
+        display: block
+        text-align: center
+        margin: 10px
+        input
+            display: inline-block
+            width: 100px
+            padding: 6px
+            border-radius: 5px
+            border: none
+        input[type="number"]
+            width: 50px
+
+    .delete-input
+        margin: 0 auto
+        display: block
+        text-align: center
+        margin: 10px
+        input
+            width: 100px
+            padding: 6px
+            border-radius: 5px
+            border: none
+            width: 50px
+    button
+        display: block
+        margin: 0 auto
+        margin-top: 25px
+        padding: 4px
+        font-size: 25px
+        border: 3px solid $dark-green
+        border-radius: 6px
+        color: $dark-green
+        background-color: transparent   
+        &:focus
+            outline: none
+
+    #table2, #table3
+        margin: 0 auto
+        border-radius: 10px
+        tr
+            
+            th, td
+                text-align: center
+                padding: 5px
+            th
+                background-color: $light-green
+            td
+                background-color: #dddddd
+                &:hover
+                    background-color: $hover-color
+    
+    .inputs-table2
+        margin: 0 auto
+        display: block
+        text-align: center
+        margin: 10px
+        input
+            display: inline-block
+            width: 100px
+            padding: 6px
+            border-radius: 5px
+            border: none
+        input[type="number"]
+            width: 50px
+        input[type="color"]
+            background-color: #ffffff
+            width: 30px
+            height: 20px

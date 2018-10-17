@@ -1,0 +1,15 @@
+body button {
+  border: 1px solid #000000;
+  padding: 5px 10px 5px 10px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 2px;
+  border-radius: 5px;
+}
+body ul li {
+  list-style: none;
+  font-size: 20px;
+}
+body #numeric {
+  width: 100px;
+}

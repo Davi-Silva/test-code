@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table-Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">  
+</head>
+<body>
+    <div class="inputs">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Family name" required>
+        <input type="number" max="100" min="0" placeholder="Age" required>
+    </div>
+    <button id="changeBorderBtn">Change border!</button>
+    <div class="delete-input">
+        <input type="number" placeholder="Row" max="100" min="0">
+    </div>
+    <button id="deleteRowBtn">Delete some table row!</button>
+    <table id="table1">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Given Name</th>
+                <th scope="col">Family Name</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Davi</td>
+                <td>Cunha</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Darth</td>
+                <td>Varder</td>
+                <td>Unknown</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Luke</td>
+                <td>Skywalker</td>
+                <td>Unknown</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="table2">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Given Name</th>
+                <th scope="col">Family Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">Favorite Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Davi</td>
+                <td>Cunha</td>
+                <td>21</td>
+                <td id="colorCell">#4286f4</td>
+            </tr>
+        </tbody>      
+    </table>
+    <div class="inputs-table2">
+        <input type="text" placeholder="Given Name">
+        <input type="text" placeholder="Family Name">
+        <input type="number" placeholder="Age">
+        <input type="color" placeholder="Favorite Color">
+        <button id="addRow">Add table row</button>
+    </div>
+
+    <table id="table3">
+        <thead>
+            <tr>
+                <th>Given Name</th>
+                <th>Family Name</th>
+                <th>Job</th>
+                <th>Average Salary Annually (USD)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Davi</td>
+                <td>Cunha</td>
+                <td>Freelancer</td>
+                <td>60,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td></td>
+                <td>60,000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
